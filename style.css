@@ -1,0 +1,69 @@
+.tituloprinc{
+  padding-left: 20px;
+  text-align: center;
+  color: black;
+  background: linear-gradient(10deg, white, purple, white, purple, white, purple;
+  border: 3px;
+  border-radius: 30px;
+}
+
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: black;
+      background: linear-gradient(20deg, white, purple);
+  border-radius: 10px
+}
+
+.label{
+  color: white;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 4px;
+}
+
+legend {
+  font-weight: bold;
+  background-color: purple;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid purple;
+  border-radius: 4px;
+  display: block;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: purple;
+  color: white;
+}
