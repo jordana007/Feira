@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Feira</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Produtos</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.principal.css" rel="stylesheet">
+  </head>
 
-<body>
-  <h1 class="tituloprinc">Feira Cursos Técnicos</h1>
-  
-  <main>
-    <fieldset>
-      <legend style="color: black;">Formulário de presença </legend>
-      <label for="nomeSobrenome" class="label">Nome e sobrenome:</label>
-      <input class="padrao" type="text" id="nome" name="nome" required>
+  <body>
 
-      <label for="email" class="label" >Email:</label>
-      <input class="padrao" type="email" id="nome" name="email" required>
+    <header>
 
-      <label for="telefone" class="label">Telefone:</label>
-      <input class="padrao" type="tel" id="telefone" name="telefone">
+      
 
-      <legend style="color: black;">Como podemos identificá-lo(a)?</legend>
+            </ul>
+          </nav>
+      </div>
 
-      <label for="aluno" class="label"><input class="padrao" type="radio" value="aluno" name="aluno" id="aluno">Aluno</label>
+    </header>
 
-      <label for="responsável" class="label"><input class="padrao" type="radio" value="responsável" name="responsável" id="responsável">Responsável de aluno</label>
+    <img class="foto" src="IMG-20240606-WA0041.jpg">
 
-      <label for="visitante" class="label"><input class="padrao" type="radio" value="visitante" name="visitante" id="visitante">Visitante</label>
+      
+
+    <main>
+      <form>
+        <label for="nomeSobrenome">Nome e sobrenome</label>
+        <input class="input-padrao" type="text" id="nomeSobrenome" required>
+
+     <fieldset>
+        <legend>Como podemos identificá-lo(a)?</legend>
+
+
+        <label for="radio-email"><input class="input-padrao" type="radio" name="contato" value="email" id="radio-email">
+          Pai/Mãe ou responsável</label>
+
+        <label for="radio-telefone"> <input class="input-padrao" type="radio" name="contato" value="telefone" id="radio-telefone">Aluno(a)</label>
+
+        <label for="radio-whatsapp"><input class="input-padrao" type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+          Visitante</label>
+
+
+       </fieldset>
+
+
+        <fieldset>
+
+        <legend>Horário de chegada</legend>
+        <select>
+
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar o formulário" class="enviar">
 
 
 
-      <label for="turma" class="label">Turma e série:</label>
-      <input class="padrao" type="text" id="turma" name="turma">
+        
+      </table>
+        
 
-      <input type="submit" value="Enviar o formulário">
-    </fieldset>
-    </form>
-  </main>
-  
-</body>
+        
 
-</html>
+
+    </main>
+
+    
+  </body>

@@ -1,69 +1,48 @@
-.tituloprinc{
-  padding-left: 20px;
-  text-align: center;
-  color: black;
-  background: linear-gradient(10deg, white, purple, white, purple, white, purple;
-  border: 3px;
-  border-radius: 30px;
+form{
+  margin: 40px 0;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+
+}
+
+table{
+  margin: 20px 0 40px 0;
+
+}
+
+thead{
+ 
+}
+
+.foto{
+  width: 50%;
+  margin-top: 0px;
 }
 
 body{
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1{
-  text-align: center;
-  color: black;
-      background: linear-gradient(20deg, white, purple);
-  border-radius: 10px
-}
-
-.label{
-  color: white;
-}
-
-fieldset {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid purple;
-  border-radius: 4px;
-}
-
-legend {
-  font-weight: bold;
-  background-color: purple;
-  border-radius: 4px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  margin-top: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-  width: 80%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid purple;
-  border-radius: 4px;
-  display: block;
-}
-
-input[type="submit"] {
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: purple;
-  color: white;
+  margin-top: 0px;
+  background: #4B05D6;
+  
+  
 }
